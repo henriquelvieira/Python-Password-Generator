@@ -23,8 +23,8 @@ def passwordGenerator(vTamanhoSenha):
     # print(f'all {all}')
     
     vLength = vTamanhoSenha #TAMANHO DA SENHA QUE SERÁ GERADA
-    password = "".join(random.sample(vAll, vLength))
-    return password
+    vPassword = "".join(random.sample(vAll, vLength))
+    return vPassword
 
 
 print (f'Senha: {passwordGenerator(15)}')
